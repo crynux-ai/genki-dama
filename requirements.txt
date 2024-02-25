@@ -1,0 +1,8 @@
+# Python utils
+python-dotenv
+PyYAML
+pyaml-env
+pytest
+
+# huggingface
+datasets
