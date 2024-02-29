@@ -1,0 +1,11 @@
+# Python utils
+python-dotenv
+PyYAML
+pyaml-env
+pytest
+torch
+
+# huggingface
+datasets
+sentence_transformers
+transformers
