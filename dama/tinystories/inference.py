@@ -1,9 +1,10 @@
 import sys
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import genki
 
 DEVICE = "mps"
 
-model = AutoModelForCausalLM.from_pretrained("./checkpoints").to(DEVICE)
+model = genki.to(AutoModelForCausalLM.from_pretrained("./checkpoints"), DEVICE)
 tokenizer = AutoTokenizer.from_pretrained("EleutherAI/gpt-neo-125M")
 
 model.eval()
