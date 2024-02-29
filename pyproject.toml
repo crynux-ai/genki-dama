@@ -15,14 +15,17 @@ dependencies = [
     "PyYAML",
     "pyaml-env",
     "pytest",
+    "torch",
 
     # Hugging Face
     "datasets",
+    "sentence_transformers",
+    "transformers",
 ]
 version = "0.0.1"
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
 include = ["*"]
 
 [project.optional-dependencies]
@@ -30,5 +33,5 @@ test = ["pytest"]
 
 [tool.pytest.ini_options]
 pythonpath = [
-    ".", "src",
+    ".", "genki",
 ]
