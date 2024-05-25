@@ -49,6 +49,13 @@ Although it is difficult to evaluate data quality directly, validators can evalu
 * Model quality: model will be evaluated by cross-validation with other datasets.
 * Data similarity: validators set higher weights to data with less similarity to encourage miners provide diversified data.
 
+## Dama
+
+We will start with a simple finetune task for proof-of-concept:
+1. Miners provide high-quality datasets to write like Shakespeare on Tiny-GPT
+2. Validators gives score on the generated output, and evaluate the data similiarty between different miners
+
+
 
 
 
