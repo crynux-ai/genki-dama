@@ -29,6 +29,8 @@ Presently, Large Language Models (LLMs) alignment demands significant [human eff
 
 Furthermore, as LLM pretraining exhausts public accessible data reservoirs, federated learning emerges as a viable solution to tap into additional high-quality data for both pretraining and fine-tuning purposes.
 
+![Genki-Dama Overview](docs/fl.png)
+
 
 ## Miner
 
