@@ -54,3 +54,11 @@ Although it is difficult to evaluate data quality directly, validators can evalu
 Validators order miners by their commit timestamp, and weight them with the score: (0.95 - data_similarity) * ∆loss 
 
 
+## Dama
+
+We will start with a simple finetune task for proof-of-concept:
+1. Miners provide high-quality datasets to write like Shakespeare on Tiny-GPT
+2. Validators evaluate generated output on a predefined instruction dataset, and evaluate the data similarity between different miners.g
+
+
+
