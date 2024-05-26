@@ -5,6 +5,8 @@
 [![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)]([https://discord.gg/bittensor](https://discord.gg/vJZnq4ujvK))
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
+![Genki-Dama](docs/genki.gif)
+
 </div>
 
 ## Introduction
@@ -49,6 +51,6 @@ Although it is difficult to evaluate data quality directly, validators can evalu
 * Model quality: model will be evaluated by cross-validation with other datasets.
 * Data similarity: validators set higher weights to data with less similarity to encourage miners provide diversified data.
 
-
+Validators order miners by their commit timestamp, and weight them with the score: (0.95 - data_similarity) * ∆loss 
 
 
